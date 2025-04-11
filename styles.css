@@ -1,0 +1,124 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   height: auto;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+  }
+ h2{
+    font-family:Verdana, monospace, sans-serif;
+ }
+ h2{
+    text-align: center;
+ }
+ h1{
+    color: orange;
+ }
+ h2{
+    font-size: 25px;
+ }
+ .maracuja{
+   text-align: center;
+ }
+ .maracuja{
+   font-size: 25px;
+ }
+ h3{
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ h3{
+   color: orange;
+ }
+ h4{
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ h4{
+   color: orange;
+ }
+ p{
+   font-family: "Open Sans", sans-serif;
+   font-size: 20px;
+ }
+ h3{
+   font-size: 25px;
+ }
+ h4{
+   font-size: 25px;
+ }
+ table {
+   width: 20%;
+ }
+ table, td, th {
+   border: 1px solid rgb(192, 111, 6);
+ }
+ 
+ table {
+   border-collapse: collapse;
+   width: 50%;
+ }
+ 
+ th {
+   height: 60px;
+ }
+ td {
+   text-align: center;
+ }
+ 
+.open-sans-<uniquifier> {
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+   font-variation-settings:
+     "wdth" 100;
+ }
+ <style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+ }
+ table {
+   margin: 20px auto; /* centraliza a tabela */
+ }
+ img {
+   display: block;          /* Transforma em elemento de bloco */
+   margin: left 50px; /* Margem automática à esquerda */
+   margin-right:auto ;      /* Margem automática à direita */
+   max-width: 100%;         /* Garante que a imagem não ultrapasse o container */
+   height: auto;            /* Mantém a proporção */
+   border-radius: 8px;      /* Borda arredondada (opcional) */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+ }
+ img {
+   display: block;
+   margin: 0 auto;
+   position: relative;
+   top: 40px; /* "Empurra" a imagem 50px para baixo */
+ }
+ img {
+   float: right;       /* Flutua à direita */
+   margin: 0 0 10px 50px; /* margem inferior e esquerda para afastar do texto */
+   max-width: 30%;        /* controla o tamanho */
+   border-radius: 8px;
+ }
+ img {
+   width: 400px; /* Tamanho fixo em pixels */
+   max-width: 100%; /* Garante que não ultrapasse o container */
+   height: auto; /* Mantém a proporção */
+   border-radius: 8px;
+ }
+
+ .tudo{
+   padding-left: 15px
+ }
+ .tudo{
+   padding-top: 30;
+ }

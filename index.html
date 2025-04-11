@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Caseiras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECEITAS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Adicione o Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Receitas Caseiras</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<body>
+    <div class="tudo">
+    <h1><i class="fas fa-utensils"></i> RECEITAS CASEIRAS</h1>
+    <h2><i class="fas fa-blender"></i> mousse de maracuja com a fruta</h2>
+    <p class="maracuja"> Receita de mousse de maracuja feito com a fruta simples.</p>
+    <p class="maracuja"> Experimente esse mousse delicioso e pratico de fazer.</p>
+    <img src="./download.jpg" alt="">
+    <h3><i class="fas fa-list-ul"></i> INGREDIENTES</h3>
+    <p><i class="fas fa-check"></i> 1 colher de gelatina em pó sem sabor</p>
+    <p><i class="fas fa-check"></i> 1 leite condensado (lata ou caixinha) 395g</p>
+    <p><i class="fas fa-check"></i> 1 lata de creme de leite</p>
+    <p><i class="fas fa-check"></i> 1 xícara de suco de maracuja concentrado</p>
+    <h4><i class="fas fa-mortar-pestle"></i> MODO DE PREPARO</h4>
+    <p> 1. Em um recipiente, dissolva a gelatina na água fria.</p>
+    <p> 2. Leve ao microondas por 30 segundos para dissolver e depois reserve.</p>
+    <p> 3. Em um liquidificador, bata o leite condensado, o creme de leite, o suco de maracuja e a gelatina. Depois
+        coloque em um recipiente.</p>
+    <p> 4. Leve pra geladeira ate ficar firme, por certa de 2 horas. E depois se sirva.</p>
+    <p>receita criada por: Júlia Almeida</p>
+    <table>
+        <tr>
+            <th><i class="fas fa-signal"></i> DIFICULDADE</th>
+            <th><i class="fas fa-utensil-spoon"></i> PORÇÕES</th>
+            <th><i class="fas fa-clock"></i> TOTAL</th>
+        </tr>
+        <tr>
+            <td>FACIL</td>
+            <td>8</td>
+            <td>130MIN</td>
+        </tr>
+    </table>
+    </div>
+</body>
+
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Caseiras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset e Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 80px; /* Espaço para a navbar fixa */
+        }
+        
+        /* Estilos da Navbar */
+        .navbar {
+            background-color: #FF6B35; /* Laranja vibrante */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        
+        .navbar-logo {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            font-family: 'Fjalla One', sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .navbar-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .navbar-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .navbar-links a:hover {
+            color: #FFE8D6;
+            transform: translateY(-2px);
+        }
+        
+        .navbar-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .navbar-links {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background-color: #FF6B35;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 30px;
+                transition: all 0.5s ease;
+            }
+            
+            .navbar-links.active {
+                left: 0;
+            }
+            
+            .navbar-toggle {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">
+            <i class="fas fa-utensils"></i>
+            <span>Receitas Caseiras</span>
+        </a>
+        
+        <div class="navbar-links" id="navbarLinks">
+            <a href="#"><i class="fas fa-home"></i> Início</a>
+            <a href="#"><i class="fas fa-book-open"></i> Receitas</a>
+            <a href="#"><i class="fas fa-utensil-spoon"></i> Categorias</a>
+            <a href="#"><i class="fas fa-heart"></i> Favoritas</a>
+            <a href="#"><i class="fas fa-user"></i> Sobre</a>
+        </div>
+        
+        <button class="navbar-toggle" id="navbarToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <!-- Seu conteúdo existente aqui -->
+    </main>
+
+    <script>
+        // Menu Mobile
+        const toggleBtn = document.getElementById('navbarToggle');
+        const navbarLinks = document.getElementById('navbarLinks');
+        
+        toggleBtn.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
+        
+        // Fechar menu ao clicar em um link
+        const navLinks = document.querySelectorAll('.navbar-links a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbarLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
+   
